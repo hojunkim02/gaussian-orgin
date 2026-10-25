@@ -65,6 +65,10 @@ or
 git clone https://github.com/graphdeco-inria/gaussian-splatting --recursive
 ```
 
+## Quick Start with Google Colab
+
+You can run the full training pipeline on Google Colab (GPU runtime required) using [`colab_train.ipynb`](colab_train.ipynb). It clones this repository, builds the CUDA submodules, downloads the sample dataset, and runs `train.py`, `render.py`, and `metrics.py`.
+
 ## Overview
 
 The codebase has 4 main components:
